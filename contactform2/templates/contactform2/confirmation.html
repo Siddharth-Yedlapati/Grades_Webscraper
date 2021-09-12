@@ -1,0 +1,75 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel = "stylesheet" href ="{% static '/css/sty1.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href="{% static '/js/app.js' %}">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slideshow">
+        <div class="slideimages fade">
+            <img src="{% static 'images/2.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/5.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/8.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/9.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/3.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/6.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/7.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/1.jpeg' %}" style="width:100%">
+        </div>
+        <div class="slideimages fade">
+            <img src="{% static 'images/4.jpeg' %}" style="width:100%">
+        </div>
+
+    </div>
+
+    <script src="{% static '/js/app.js' %}" type = "text/javascript"></script>
+
+    <div class = 'zense-icon'>
+        <img src = "{% static 'images/zense.png' %}" height = "200px">
+    </div>
+
+    <div class = 'confirmation-text'>
+        <h1>Thank You for submitting the form,<br>
+        we will get back to you soon! </h1>
+    </div>
+
+    <div class = 'Home-Button'>
+        <a href = 'https://zense.co.in/'>
+            <button class = "home">
+                Home
+            </button>
+        </a>
+    </div>
+
+    <div class = 'social-links'>
+        <h2>Connect with us on: </h2>
+        <a href = "https://github.com/zense" class ="fa fa-github" > </a>
+        <a href = "https://facebook.com/zense.dev" class = "fa fa-facebook"></a>
+    </div>
+
+
+
+</body>
+</html>
